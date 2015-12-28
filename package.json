@@ -1,0 +1,30 @@
+{
+  "name": "babel-plugin-dev-module-alias",
+  "version": "0.0.0",
+  "description": "A plugin for finding aliases intended for development",
+  "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "keywords": [
+    "babel-plugin"
+  ],
+  "dependencies": {
+    "resolve": "^1.1.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-preset-forbeslindesay": "^1.0.0",
+    "eslint": "^1.10.3",
+    "eslint-config-forbeslindesay": "^1.0.0"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel src --out-dir lib",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForbesLindesay/babel-plugin-dev-module-alias.git"
+  }
+}
