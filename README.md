@@ -1,5 +1,7 @@
 # babel-plugin-dev-module-alias
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/babel-plugin-dev-module-alias.svg)](https://greenkeeper.io/)
+
 ## Installation
 
     npm install babel-plugin-dev-module-alias --save-dev
